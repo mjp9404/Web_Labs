@@ -1,0 +1,56 @@
+@media all {
+
+body {
+       margin: 0;
+       background-color:#faebd7;
+}
+
+header {
+       font-size: 90px;
+       padding-left: 30px;
+
+}
+h2{
+       font-size: 70px;
+       padding-left: 30px;
+}
+
+figure img{
+       width: 1000px;
+       height: 800px;
+
+}
+.border1{
+       width: 45%;
+       margin-left: auto;
+       margin-right: auto;
+       border: 5px solid darkblue;
+       display:inline-grid;
+       grid-gap: 3rem;
+       padding: 20;
+
+}
+.border2{
+       width: 45%;
+       margin-left: auto;
+       margin-right: auto;
+       border: 5px solid darkblue;
+       display:inline-grid;
+       grid-gap: 3rem;
+       padding: 20;
+       
+}
+
+figure figcaption{
+       font-size: 65px;
+       padding: 10px;
+       position: relative;
+       
+}
+
+p{
+       font-size: 45px;
+       padding: 5px 20px 5px 20px;
+}
+
+}

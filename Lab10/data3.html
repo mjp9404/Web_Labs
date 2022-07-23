@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Data_3</title>
+    <link rel="stylesheet" href="./assets/styles/data3.css">
+</head>
+<body onload="loadData();">
+    <header>
+        <h1>Search Data</h1>
+    </header>
+    <br>
+    <main>
+        <section>
+			<label>Search Parameter:</label>
+			<select id="search_parameter">
+				<option value="school_name">School Name</option>
+				<option value="city">City Name</option>
+                <!-- <option value="phone_number">Contact Number</option> -->
+			</select>
+			<label>Search:</label>
+			<input type="text" id="search" onkeyup="schoolSearch();">
+		</section>
+    </main>
+    
+    <table id="search_results"></table>
+
+    <footer>
+        <p>Copyright 2022</p>
+        <a href="https://unsplash.com/photos/Bg14l3hSAsA">
+                    Jess Bailey. Colour pens </a>. All right reserved
+    </footer>
+    <script src="./assets/scripts/data3.js"></script>
+</body>
+</html>

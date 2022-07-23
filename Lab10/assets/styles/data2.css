@@ -1,0 +1,28 @@
+body{
+  background-image: url("../images/Job.jpg");
+  background-size: 100%;
+}
+h1{
+  color: aliceblue;
+  margin: auto;
+  text-align: center;
+}
+main{
+  text-align: center;
+}
+label{
+  color: black;
+  margin: auto;
+}
+table, tr, td{
+  color: black;
+  margin: auto;
+  border: 1px solid;
+}
+b{
+  color: aliceblue;
+}
+footer{
+  margin-top: 30%;
+  text-align: center;
+}

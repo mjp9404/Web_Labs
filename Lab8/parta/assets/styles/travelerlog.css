@@ -1,0 +1,14 @@
+
+h1{
+    font-size: 50px;
+    color: azure;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: auto;
+}
+b{
+    font-size: 30px;
+}
+body{
+    background-color:darkgray;
+}

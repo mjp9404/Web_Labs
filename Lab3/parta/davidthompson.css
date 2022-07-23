@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+@media all {
+    img {
+        max-width: 200px;
+    }
+    body{
+        background-color: antiquewhite;
+    }
+    body main p{
+        width: 80%;
+        position: center;
+        font-family: Quintessential;
+        text-transform: capitalize;
+        text-align: center;
+        margin: auto;
+    }
+    p b{
+        font-size: 150%;
+        color: slategray;
+        text-transform: capitalize;
+    }
+
+    .float1{
+        float: left;
+        padding: 10px;
+        text-align: center;
+    }
+    .float2{
+        float: center;
+        padding: 10px;
+        text-align: center;
+    }
+    .float3{
+        float: left;
+        padding: 20px;
+        display: block;
+        position: relative;
+        text-align: center;
+    }
+    figcaption{
+        text-align: center;
+       
+ }
+
+
+   nav a:hover{
+        background-color: brown;
+    }
+    footer {
+        padding: 20px;
+        background-color: silver;
+        display: block;
+
+    }
+}

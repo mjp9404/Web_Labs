@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Data_2</title>
+    <link rel="stylesheet" href="./assets/styles/data2.css">
+</head>
+<body onload="loadData();">
+    <header>
+        <h1>Directory of Job Center</h1>
+    </header>
+    <br>
+    <main>
+        <section>
+			<label>Search types:</label>
+			<select id="search_parameter">
+				<option value="facility_name"> Facility name </option>
+				<option value="city">City Name</option>
+                <!-- <option value="phone_number_s">Contact Number</option> -->
+			</select>
+			<label>Search:</label>
+			<input type="text" id="search" onkeyup="jobCenterSearch();">
+		</section>
+    </main>
+    <br><br>
+    <table id="search_results"></table>
+    <footer>
+        <p>Copyright 2022</p>
+        <a href="https://unsplash.com/photos/1_CMoFsPfso">
+        Joanna Kosinska. Minimal Pencils on yellow </a>. All right reserved
+    </footer>
+    
+    <script src="./assets/scripts/data2.js"></script>
+
+</body>
+</html>

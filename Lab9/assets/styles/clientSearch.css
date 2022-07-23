@@ -1,0 +1,22 @@
+
+
+body{
+  background-color:cornflowerblue;
+  background-size: 100%;
+}
+
+main{
+  background-color:cadetblue;
+  width: 40%;
+}
+.hide{
+	display: none;
+	visibility: hidden;
+}
+
+.hide table, tr, td {
+    border: 2px solid;   
+}
+b{
+  font-size: 12px;
+}

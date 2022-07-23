@@ -1,0 +1,49 @@
+@media all{
+    
+header{
+        text-align: center;
+        
+}
+
+h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24pt;
+    
+}
+
+h3{
+    text-transform: capitalize;
+    font-size: 14pt;
+    
+}
+
+body{
+    background-color: rgb(243, 235, 222);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+p{
+    font-size: 11pt;
+    
+    
+}
+li{
+    font-size: 11pt;
+   
+}
+}
+
+@media print{
+
+.background{
+    display: none;
+    visibility: hidden;
+}
+html{
+    font-size: smaller;  
+}
+}
+
+

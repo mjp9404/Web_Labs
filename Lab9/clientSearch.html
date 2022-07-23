@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Client Information</title>
+    <link rel="stylesheet" href="./assets/styles/clientSearch.css">
+</head>
+
+<body onload="loadJSON();">
+    <header>
+        <h1>Search Client Information</h1>
+    </header>
+    <main>
+        <section>
+            <select name="search_Type" id="search_Type" onchange="chooseSearchType();">
+                <option value="">----------</option>
+                <option value="searchId">Search Client by Id</option>
+                <option value="searchName">Search Client by Last Name</option>
+                <option value="searchPhone">Search Client by phone</option>
+            </select>
+        </section>
+        <div>
+            <br>
+            <div id="search_id" class="hide">
+                <label>Please Type ID</label>
+                <input type="text" id="c_id">
+                <button onclick="findClientById();">Click</button>
+            </div>
+            <section>
+                <div id="search_name" class="hide">
+                    <label>Please Type Last Name</label>
+                    <input type="text" id="c_lname">
+                    <button onclick="findClientByName();">Click</button>
+                </div>
+            </section>
+
+            <div id="search_phone" class="hide">
+                <label>Please Type Phone Number <b id="message1"></b></label>
+                <input type="tel" id="c_phone" onfocus="message1();">
+                <button onclick="findClientByPhone();">Click</button>
+            </div>
+        </div>
+        <table id="display">
+
+        </table>
+    </main>
+
+
+    <script src="./assets/scripts/clientSearch.js"></script>
+</body>
+
+</html>

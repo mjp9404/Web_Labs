@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+
+
+@media screen {
+
+    body{
+        margin: 0;
+        background-image: url("../images/Background.jpg");
+        background-size: 100%;
+    }
+    header {
+        padding-left: 20px;
+        background-color:azure;
+        position: relative;
+    }
+
+    main{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 3px solid bisque;
+        display:grid;
+        grid-gap: 1rem;
+        padding: 0;
+    }
+
+    article p {
+        font-size: 16px;
+        font-family: Vidaloka;
+    }
+    article p b {
+        font-size: 20px;
+    }
+    figure {
+        background-color: #333333;
+        margin: 0; 
+    }
+    figure:hover{
+		width: 400px;
+	}
+    .float1{
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .float2{
+        float: right;
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .self-portrait{
+        width: 300px;
+    }
+    .architecture{
+        width: 300px;
+    }
+    .habitat{
+        width: 300px;
+    }
+    .resort{
+        width: 300px;
+    }
+    figure.portrait{
+        width: 300px;
+    }
+    figure div {
+        width: inherit;
+    }
+
+    figure div img {
+        display: black;
+        width: 100%;
+    }    
+
+    figure figcaption{
+        color: white;
+        font-size: 20px;
+        padding: 7px;
+        text-align: center;
+        font-family:Caveat;
+    }
+    
+    footer{
+        padding: 20px;
+        color: rgba(144, 150, 151, 0.726);
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 10px;
+    }
+}

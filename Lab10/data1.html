@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Data_1</title>
+    <link rel="stylesheet" href="./assets/styles/data1.css">
+</head>
+
+<body onload="loadData();">
+    <header>
+        <h1>Agency Military Liaisons</h1>
+    </header>
+    <br>
+    <main class="board1">
+        <section>
+            <label>Search type:</label>
+            <select id="search_parameter">
+                <option value="agency_code">Agency code</option>
+                <option value="agency_description">Agency description</option>
+                <!-- <option value="military_liaison_officer">Agency officer name</option> -->
+            </select>
+
+            <label>Search:</label>
+            <input type="text" id="search" onkeyup="militarySearch();">
+        </section>
+
+    </main>
+    <br>
+    <table id="search_results"></table>
+
+    <script src="./assets/scripts/data1.js"></script>
+    <br><br>
+
+    <footer>
+        <p>Copyright 2022</p>
+        <a href="https://unsplash.com/photos/9C8r4QUwZRQ">
+            Aaron Burden. American flag in the grass </a>. All right reserved
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+@media all{
+    body{
+        background-color: white;
+        size-adjust: auto;
+    }
+    
+    
+    main{
+        min-width: 600px;
+        background-image: url("./Photo/Background.jpg");
+        background-size: 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+        text-align: center;
+        margin: 10px 250px 10px 250px;
+        position: relative;
+    }
+    .center{
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        
+    }
+
+    h1 {
+        margin-left: 20px;
+        color: black;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 30px;
+        text-align: center;
+    }
+    h2{
+        min-width:50px;
+        padding: 30px;
+        color: whitesmoke;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 24px;
+    }
+    table{
+        text-align: center;
+    }
+    td{
+        
+        color:bisque;
+        font-size: 20px;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    input{
+        
+        color:darkblue;
+        font-size: 16px;
+        
+    }
+    footer{
+        padding: 20px;
+        color: rgba(144, 150, 151, 0.726);
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 10px;
+    }
+    
+}

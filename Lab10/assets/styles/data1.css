@@ -1,0 +1,32 @@
+
+body{
+  background-image: url("../images/USA.jpg");
+  background-size: 100%;
+}
+h1{
+  color: aliceblue;
+  margin: auto;
+  text-align: center;
+}
+main{
+  text-align: center;
+}
+label{
+  color: whitesmoke;
+  margin: auto;
+}
+table, tr{
+  color: black;
+}
+b{
+  color: azure;
+}
+table, tr, td {
+  margin: auto;
+  border: 1px solid;
+}
+
+footer{
+  margin-top: 20%;
+  text-align: center;
+}

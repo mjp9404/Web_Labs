@@ -1,0 +1,29 @@
+body{
+  background-image: url("../images/School.jpg");
+  background-size: 100%;
+}
+h1{
+  color:dimgrey;
+  margin: auto;
+  text-align: center;
+  text-shadow: 2px 2px aliceblue;
+}
+main{
+  text-align: center;
+}
+label{
+  color: black;
+  margin: auto;
+}
+table, tr, td{
+  color: black;
+  margin: auto;
+  border: 1px solid;
+}
+b{
+  color:dimgrey;
+}
+footer{
+  margin-top: 20%;
+  text-align: center;
+}
