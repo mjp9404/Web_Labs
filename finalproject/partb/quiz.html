@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>quiz</title>
+	<link rel="stylesheet" href="./assets/styles/finalquiz.css">
+</head>
+
+<body onload="loadXML();">
+	<header>
+		<h1>Final Quiz</h1>
+	</header>
+	<main>
+
+		<div>
+			<table class="border1">
+				<tr>
+					<td>
+						<div>
+							<label>First name:</label>
+							<input type="text" name="s_fname" id="s_fname" class="float_right" autofocus>
+						</div>
+						<div>
+							<label>Last name:</label>
+							<input type="text" name="s_lname" id="s_lname" class="float_right">
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Student Number</label>
+						<input type="text" name="s_number" id="s_number" class="float_right">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Student Email</label>
+						<input type="email" name="s_email" id="s_email" class="float_right">
+					</td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<div>
+			<div>
+				<button onclick="findQuiz();">start</button>
+
+			</div>
+		</div>
+		<p id="search_results"></p>
+
+		<br><br>
+		<table id="display" class="hide">
+
+		</table>
+
+
+	</main>
+
+	<!-- Custom JavaScript -->
+	<script src="./assets/scripts/finalquiz.js"></script>
+	<footer>
+		<p>Copyright 2022</p>
+	</footer>
+</body>
+
+</html>

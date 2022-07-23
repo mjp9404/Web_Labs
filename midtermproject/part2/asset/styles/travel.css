@@ -1,0 +1,103 @@
+html {
+	box-sizing: border-box;
+}
+* {
+	box-sizing: inherit;
+}
+
+header .logo {
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	margin: 10px;
+}
+header .logo img {
+	display: block;
+	height: 60px;
+}
+body{
+	margin: 80px 200px 80px 200px;
+    background-color:darkgrey;
+}
+header {
+	padding: 10px;
+	text-align: center;
+	color: white;
+	text-shadow: 5px 5px #558ABB;
+	background-color: #333333;
+	text-transform: uppercase;
+}
+
+section {
+	display: block;
+	text-align: center;
+	width: 450px;
+	margin: auto;
+}
+
+#slideshow {
+	position: relative;
+	width: 400px;
+	height: 300px;
+	margin: 30px auto;
+	
+}
+
+#slideshow .slide {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #333333;
+	z-index: 0;
+}
+#slideshow .slide .slide_image {
+	width: 400px;
+	height: 300px;
+	overflow: hidden;
+	
+}
+#slideshow .slide .slide_image.small img {
+	display: block;
+	width: 400px;
+	height: 300px;
+	text-align: center;
+}
+#slideshow .slide .slide_image img {
+	display: block;
+	width: 100%;
+	height: 100%;	
+}
+figcaption{
+    margin: auto;
+	padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+	color: white;
+	font-size: 15px;
+}
+.overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index: 5;
+	opacity: 0;
+	transition: opacity ease-in-out 300ms;
+}
+.hide {
+    opacity: 1;
+	
+}
+footer{
+    padding: 5px;
+    text-align: center;
+	color: white;
+	font-size: 10px;
+	background-color: #333333;
+	margin-left: auto;
+	margin-right: auto;
+}

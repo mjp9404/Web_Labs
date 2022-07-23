@@ -1,0 +1,59 @@
+  .hide{
+	display: none;
+	visibility: hidden; 
+  }
+
+  h1{
+    color:black;
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+	padding-bottom: 20px;
+  }
+  body{
+    background-size: 100%;
+	  background-color: aliceblue ;
+  }
+  h2{
+	font-size: 40px;
+	font-weight: bold;
+	color: black;
+	}
+
+	h3{
+		font-size: 20px;
+		font-weight: lighter;
+		color:black;
+	}
+
+  main{
+    text-align: center;
+  }
+  label{
+    color:black;
+    margin: auto;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  table, tr{
+    color: black;
+    font-weight: bold;
+  }
+
+  table, tr, td {
+    margin: auto;
+    border: 2px solid;
+    padding: 5px;
+  }
+  
+  footer{
+    margin-top: 20%;
+    text-align: center;
+  }
+  button{
+	  width: 100px;
+	  font-size: 20px;
+  }
+  .Question0, .Question1{
+	  color:black;
+  }
